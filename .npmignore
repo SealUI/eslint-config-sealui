@@ -13,3 +13,4 @@ test
 .prettierignore
 .travis.yml
 prettier.config.js
+tsconfig.json
