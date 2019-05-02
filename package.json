@@ -1,0 +1,76 @@
+{
+  "name": "eslint-config-sealui",
+  "version": "1.0.0",
+  "description": "SealUI ESLint 规则",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm test",
+    "build": "ts-node scripts/build.ts",
+    "test": "npm run lint && ts-node ./test/index.ts",
+    "lint": "npm run eslint && npm run prettier && npm run eclint",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" .",
+    "prettier": "prettier -l \"./**/*\"",
+    "prettier:fix": "prettier --write -l \"./**/*\"",
+    "eclint": "eclint check test",
+    "eclint:fix": "eclint fix test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SealUI/eslint-config-sealui.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "config",
+    "sealui",
+    "javascript",
+    "styleguide",
+    "react",
+    "vue",
+    "typescript"
+  ],
+  "license": "MIT",
+  "homepage": "https://eslint.sealui.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-vue": "^5.2.2",
+    "vue-eslint-parser": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/babylon": "^6.16.5",
+    "@types/doctrine": "0.0.3",
+    "@types/eslint": "^4.16.6",
+    "@types/node": "^11.11.4",
+    "@types/prettier": "^1.16.1",
+    "@types/react": "^16.8.8",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "babel-eslint": "^10.0.1",
+    "babylon": "^6.18.0",
+    "doctrine": "^3.0.0",
+    "eclint": "^2.8.1",
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-vue": "^5.2.2",
+    "husky": "^2.0.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.3.4000",
+    "vue-eslint-parser": "^5.0.0"
+  }
+}
