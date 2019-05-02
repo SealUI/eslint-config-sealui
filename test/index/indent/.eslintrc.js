@@ -1,10 +1,10 @@
 module.exports = {
   rules: {
     /**
-    * 一个缩进必须用四个空格替代
-    * @category Stylistic Issues
-    * @fixable
-    */
+     * 一个缩进必须用四个空格替代
+     * @category Stylistic Issues
+     * @fixable
+     */
     indent: [
       'error',
       2,
@@ -14,4 +14,4 @@ module.exports = {
       }
     ]
   }
-}
+};

@@ -1,10 +1,10 @@
 function foo(bar) {
-  console.log(1);
+  console.log(1)
   
     switch (bar) {
     case 1:
-        break;
+      break
     case 2:
-        break;
+      break
     }
 }

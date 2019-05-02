@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['../../react.js', '../../typescript.js']
-}
+  extends: ['../../lib/react.js', '../../lib/typescript.js']
+};

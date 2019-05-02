@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['../../base.js'],
+  extends: ['../../lib/base.js'],
   plugins: ['react']
-}
+};

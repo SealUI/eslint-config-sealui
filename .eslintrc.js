@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./typescript.js', 'prettier', 'prettier/@typescript-eslint']
-}
+  extends: ['./lib/typescript.js', 'prettier', 'prettier/@typescript-eslint']
+};

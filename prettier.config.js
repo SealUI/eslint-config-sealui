@@ -7,7 +7,7 @@ module.exports = {
   // 不使用缩进符，而使用空格
   useTabs: false,
   // 行尾不需要有分号
-  semi: false,
+  semi: true,
   // 使用单引号
   singleQuote: true,
   // jsx 不使用单引号，而使用双引号
@@ -33,4 +33,4 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css',
   // 换行符使用 lf
   endOfLine: 'lf'
-}
+};

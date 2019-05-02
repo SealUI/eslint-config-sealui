@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-sealui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SealUI ESLint 规则",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "npm test",
     "build": "ts-node scripts/build.ts",
@@ -35,12 +35,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
-    }
-  },
   "dependencies": {},
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.5.0",
@@ -66,7 +60,6 @@
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-vue": "^5.2.2",
-    "husky": "^2.0.0",
     "prettier": "^1.16.4",
     "react": "^16.8.5",
     "ts-node": "^7.0.1",

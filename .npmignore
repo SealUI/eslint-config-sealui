@@ -3,7 +3,13 @@
 bak
 docs
 npm-debug.log
-scrips
+scripts
 test
 .vscode
 .travis.yml
+.editorconfig
+.eslintignore
+.eslintrc.js
+.prettierignore
+.travis.yml
+prettier.config.js

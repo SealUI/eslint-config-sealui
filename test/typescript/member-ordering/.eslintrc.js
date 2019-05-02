@@ -1,13 +1,13 @@
 module.exports = {
   rules: {
     /**
-    * 指定类成员的排序规则
-    * @category TypeScript
-    * @reason 优先级：
-    * 1. static > instance
-    * 2. field > constructor > method
-    * 3. public > protected > private
-    */
+     * 指定类成员的排序规则
+     * @category TypeScript
+     * @reason 优先级：
+     * 1. static > instance
+     * 2. field > constructor > method
+     * 3. public > protected > private
+     */
     '@typescript-eslint/member-ordering': [
       'error',
       {
@@ -51,4 +51,4 @@ module.exports = {
       }
     ]
   }
-}
+};

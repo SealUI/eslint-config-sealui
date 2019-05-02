@@ -1,9 +1,9 @@
 module.exports = {
   rules: {
     /**
-    * 定义过的变量必须使用
-    * @category Variables
-    */
+     * 定义过的变量必须使用
+     * @category Variables
+     */
     'no-unused-vars': [
       'error',
       {
@@ -14,4 +14,4 @@ module.exports = {
       }
     ]
   }
-}
+};
